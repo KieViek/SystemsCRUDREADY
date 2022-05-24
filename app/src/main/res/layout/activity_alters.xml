@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#404651"
+    android:backgroundTint="#404651"
+    tools:context=".Alters">
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="170dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="21dp"
+        android:fontFamily="@font/roboto_medium"
+        android:freezesText="false"
+        android:text="@string/alter"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView15"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/etNombreAlter"
+        android:layout_width="280dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="69dp"
+        android:layout_marginEnd="69dp"
+        android:layout_marginBottom="17dp"
+        android:background="@drawable/edit_text_border"
+        android:backgroundTint="#FFFFFF"
+        android:ems="10"
+        android:hint="@string/nombre"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/etEspecieAlter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/etEspecieAlter"
+        android:layout_width="280dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="66dp"
+        android:layout_marginTop="220dp"
+        android:layout_marginEnd="66dp"
+        android:background="@drawable/edit_text_border"
+        android:backgroundTint="@color/white"
+        android:ems="10"
+        android:hint="@string/especie"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/etGeneroAlter"
+        android:layout_width="280dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="65dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="65dp"
+        android:background="@drawable/edit_text_border"
+        android:backgroundTint="@color/white"
+        android:ems="10"
+        android:hint="@string/genero"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/btnRegistrarAlter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etEspecieAlter"
+        app:layout_constraintVertical_bias="0.111" />
+
+    <Button
+        android:id="@+id/btnRegistrarAlter"
+        android:layout_width="232dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="28dp"
+        android:foregroundGravity="center"
+        android:hint="@string/registrar"
+        android:onClick="registrarAlter"
+        android:text="@string/registrar"
+        app:layout_constraintBottom_toTopOf="@+id/btnListadoAlter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btnListadoAlter"
+        android:layout_width="232dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="216dp"
+        android:foregroundGravity="center"
+        android:onClick="goListado"
+        android:text="@string/ListadoDeAlters"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

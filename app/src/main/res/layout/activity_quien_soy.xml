@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#404651"
+    tools:context=".QuienSoy">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="29dp"
+        android:layout_marginEnd="53dp"
+        android:layout_marginBottom="19dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView15"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView9"
+        app:layout_constraintTop_toBottomOf="@+id/textView18"
+        app:srcCompat="@drawable/cursed_emoji_png_hd_quality" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="18dp"
+        android:text="23/2/2020"
+        android:textColor="#FFFFFF"
+        app:layout_constraintStart_toEndOf="@+id/textView7"
+        app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="17dp"
+        android:layout_marginEnd="4dp"
+        android:fontFamily="@font/roboto_medium"
+        android:text="Nombre: "
+        android:textColor="#FFFFFF"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textView9"
+        app:layout_constraintEnd_toStartOf="@+id/textView9"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto_medium"
+        android:text="Nacimiento:"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textView12"
+        app:layout_constraintEnd_toEndOf="@+id/textView6"
+        app:layout_constraintStart_toEndOf="@+id/textView6" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="163dp"
+        android:text="15"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toStartOf="@+id/textView10"
+        app:layout_constraintStart_toStartOf="@+id/textView10"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="17dp"
+        android:fontFamily="@font/roboto_medium"
+        android:text="Genero:"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textView10"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="6dp"
+        android:layout_marginBottom="24dp"
+        android:text="Hombre"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/textView11"
+        app:layout_constraintStart_toEndOf="@+id/textView5" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="135dp"
+        android:layout_marginBottom="19dp"
+        android:text="Bee"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/textView10"
+        app:layout_constraintEnd_toStartOf="@+id/imageView2"
+        app:layout_constraintStart_toEndOf="@+id/textView3" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="17dp"
+        android:fontFamily="@font/roboto_medium"
+        android:text="Edad: "
+        android:textColor="#FFFFFF"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textView11"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="309dp"
+        android:layout_height="0dp"
+
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="31dp"
+        android:fontFamily="@font/roboto_medium"
+        android:text="orem ipsum dolor sit amet, consectetur adipiscing elit. Nunc maximus tortor vitae turpis sollicitudin faucibus. Nam nec justo dolor. Vestibulum sodales arcu in diam egestas blandit. Phasellus et porttitor tortor. Maecenas dignissim orci ante, vitae auctor est ornare vitae. Vivamus accumsan turpis eget pretium dapibus. Donec hendrerit fringilla congue. Vivamus non nunc non purus pharetra lacinia in ac ex. Phasellus congue ex leo, quis luctus neque pulvinar non. Sed sit amet lorem eu sem iaculis luctus non a enim. Curabitur semper nisl metus, a vehicula turpis consequat finibus. Praesent suscipit gravida consectetur. Interdum et malesuada fames ac ante ipsum primis in faucibus. Phasellus magna nulla, efficitur eget molestie ut, consectetur a massa. Vivamus vitae magna quis risus laoreet vehicula quis a enim.
+
+Suspendisse in faucibus arcu. Nullam blandit dapibus erat ac gravida. Proin id dictum arcu. Nulla egestas eros id mauris hendrerit, in sagittis urna ultrices. Maecenas ut congue nisi, nec viverra tellus. Suspendisse faucibus mattis tellus. Quisque vestibulum ac ligula eu efficitur.
+
+Etiam venenatis, ligula quis cursus euismod, neque nisl pretium purus, quis condimentum elit justo rutrum mauris. Vestibulum blandit, nulla vel faucibus volutpat, tellus ex pharetra sem, vel tincidunt augue mi ac arcu. Quisque diam orci, fermentum quis ex nec, congue dictum quam. Vestibulum et justo suscipit, ullamcorper enim ut, pulvinar orci. Suspendisse dictum quam id libero efficitur iaculis. Aliquam dignissim risus eu elit malesuada, non venenatis lorem pellentesque. Morbi sit amet vestibulum nunc. Suspendisse facilisis odio nunc, non pretium urna rhoncus sed. Duis dapibus ex et nulla pretium tempor ut lobortis diam. Etiam sodales dignissim felis, non cursus arcu convallis nec.
+
+Suspendisse et venenatis mauris. Proin convallis, libero nec varius accumsan, diam quam facilisis nisl, non commodo urna tellus ultrices urna. Fusce quis suscipit nunc. Donec mollis leo et sagittis blandit. Donec pellentesque sapien ut velit rhoncus, nec sagittis lectus tincidunt. Maecenas euismod tincidunt felis, ac lacinia tellus fermentum eu. Sed blandit molestie mauris at scelerisque. Proin ullamcorper lorem sit amet tristique mollis. Aliquam et orci sed enim viverra rhoncus ut et erat. Morbi id tortor pretium, consectetur enim porta, convallis risus. Fusce metus nisi, tristique eget euismod tincidunt, pulvinar at enim. Sed mattis nunc vitae accumsan vestibulum.
+
+Duis pulvinar consectetur elit, nec volutpat tortor convallis sit amet. Quisque nisi nisi, tincidunt lacinia bibendum id, finibus quis nisi. Suspendisse potenti. Nullam accumsan aliquam tortor, nec vulputate elit vehicula vel. Cras consequat dolor eu euismod faucibus. Pellentesque eget dictum elit. Suspendisse vitae imperdiet augue. Maecenas venenatis erat in sapien aliquet egestas."
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="104dp"
+        android:layout_marginTop="49dp"
+        android:layout_marginEnd="105dp"
+        android:fontFamily="@font/roboto_medium"
+        android:text="Descripcion"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="@+id/textView15"
+        app:layout_constraintStart_toEndOf="@+id/textView6"
+        app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="19dp"
+        android:layout_marginBottom="18dp"
+        android:text="Foto de Perfil"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="@+id/textView12"
+        app:layout_constraintStart_toStartOf="@+id/imageView2"
+        app:layout_constraintTop_toTopOf="@+id/textView11" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="12dp"
+        android:text="Quien Soy!"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toStartOf="@+id/imageView2"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

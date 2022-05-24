@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Systems 1.0</string>
+
+
+    <!--Registrarse -->
+    <string name="Name">Nombre</string>
+    <string name="contrasenia">Contraseña</string>
+    <string name="email">Email</string> <!--Ejemplo de Anotacion-->
+
+
+    <string name="YaTengoCuenta">Ya Tengo Cuenta</string>
+    <string name="regustrarse">Registraste!</string>
+    <string name="Entrar">Entrar</string>
+
+
+    <!-- Pagina principal-->
+    <string name="FrontsCharts">¡Grafico Fronts!</string>
+    <string name="QuienSoy">¡Quien Soy!</string>
+    <string name="Alters">¡Alters!</string>
+    <string name="Diario">¡Comienza a Escribir el Diario!</string>
+    <string name="UsuarioSaludo">Bienvenido, Alter!</string>
+
+    <!--Listado de alters-->
+
+    <string name="alter">Alters!</string>
+
+    <string name="nombre">Nombre del Alter</string>
+    <string name="especie">Especie del Alter!</string>
+    <string name="genero">Genero del Alter</string>
+
+    <!--Listado de alters: Botones-->
+
+    <string name="registrar">Registra al alter!</string>
+    <string name="ListadoDeAlters">Listado de alters!</string>
+
+
+    <!--Actualizar Alter Botones-->
+    <string name="eliminar">Elimina al alter!</string>
+    <string name="actualizar">Actualiza de alter!</string>
+
+
+</resources>

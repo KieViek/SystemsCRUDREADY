@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#404651"
+    android:backgroundTint="#404651"
+    tools:context=".AccionAlter">
+
+    <EditText
+        android:id="@+id/etNombreAlter"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="65dp"
+        android:layout_marginEnd="65dp"
+        android:layout_marginBottom="17dp"
+        android:background="@drawable/edit_text_border"
+        android:backgroundTint="#FFFFFF"
+        android:ems="10"
+        android:hint="@string/nombre"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/etEspecieAlter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="170dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="62dp"
+        android:fontFamily="@font/roboto_medium"
+        android:freezesText="false"
+        android:text="@string/alter"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/etNombreAlter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/etEspecieAlter"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="65dp"
+        android:layout_marginEnd="65dp"
+        android:layout_marginBottom="213dp"
+        android:background="@drawable/edit_text_border"
+        android:backgroundTint="@color/white"
+        android:ems="10"
+        android:hint="@string/especie"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/btnActualizarAlter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etNombreAlter" />
+
+    <EditText
+        android:id="@+id/etGeneroAlter"
+        android:layout_width="0dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="65dp"
+        android:layout_marginEnd="65dp"
+        android:layout_marginBottom="144dp"
+        android:background="@drawable/edit_text_border"
+        android:backgroundTint="@color/white"
+        android:ems="10"
+        android:hint="@string/genero"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/btnActualizarAlter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btnActualizarAlter"
+        android:layout_width="232dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="199dp"
+        android:foregroundGravity="center"
+        android:hint="@string/registrar"
+        android:onClick="actualizar"
+        android:text="@string/actualizar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etEspecieAlter" />
+
+    <Button
+        android:id="@+id/btnEliminarAlter"
+        android:layout_width="232dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="32dp"
+        android:foregroundGravity="center"
+        android:onClick="eliminar"
+        android:text="@string/eliminar"
+        app:layout_constraintEnd_toEndOf="@+id/btnActualizarAlter"
+        app:layout_constraintTop_toBottomOf="@+id/btnActualizarAlter" />
+</androidx.constraintlayout.widget.ConstraintLayout>
